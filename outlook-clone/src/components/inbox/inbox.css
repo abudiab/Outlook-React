@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#inbox {
+  background: #faf9f8;
+  width: 352px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inbox-header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 17.5px;
+}
+
+.inbox-header__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inbox-header__section.title > * {
+  margin-right: 17.5px;
+}
+
+.section-title {
+  font-size: 17px;
+  font-weight: 400;
+  color: #323130;
+}
+
+.inbox-header .filters h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #0178d4;
+}
+
+.inbox-cards {
+  width: 100%;
+  background: #faf9f8;
+  padding-right: 19px;
+}
