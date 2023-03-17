@@ -32,10 +32,18 @@
   margin-right: 17.5px;
 }
 
+.inbox-header__section.title svg:hover {
+  cursor: pointer;
+}
+
 .section-title {
   font-size: 17px;
   font-weight: 400;
   color: #323130;
+}
+
+.inbox-header__section.filters:hover {
+  cursor: pointer;
 }
 
 .inbox-header .filters h3 {
@@ -59,6 +67,14 @@
   font-size: 16px;
   font-weight: 400;
   border-bottom: 0.5px solid #edebe9;
+}
+
+.inbox-card:hover {
+  filter: brightness(0.9);
+}
+
+.inbox-card.selected {
+  background: #c7e0f4;
 }
 
 .inbox-card__icon {
@@ -112,4 +128,113 @@
 
 .separator p {
   margin-left: 53px;
+}
+
+/*EmailPreview*/
+
+#inboxandpreview {
+  display: flex;
+}
+
+.preview-container {
+  width: 557px;
+  background: #faf9f8;
+  border: 0.5px solid #edebe9;
+  overflow-y: scroll;
+  border-left: none;
+}
+
+.email-preview-container {
+  height: 100%;
+  max-width: 522px;
+  width: 95%;
+  margin-left: 20px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+
+.preview-container h2 {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 18px 32px;
+}
+
+.email-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sender-details {
+  display: flex;
+}
+
+.sender-details__icon {
+  height: 40px;
+  width: 40px;
+  background: #d13438;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.sender-details__metadata {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.sender-details__metadata p:nth-child(n + 3) {
+  font-size: 13px;
+  color: #605e5c;
+}
+
+.sender-details__metadata p:nth-child(3) {
+  margin-top: 5px;
+}
+
+.sender-details__metadata p:nth-child(4) {
+  margin-bottom: 25px;
+}
+
+.action-buttons {
+  margin-top: 10px;
+}
+.action-buttons svg {
+  margin-left: 10px;
+}
+.action-buttons svg:hover {
+  cursor: pointer;
+}
+
+/*Email content*/
+.email-content {
+  width: 429px;
+  height: 100%;
+  max-height: max-content;
+  /* background: lightpink; */
+}
+
+.email-content__image-container {
+  height: 185px;
+  background: #39add1;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  font-size: 60px;
+}
+
+.email-content__body {
+  font-size: 13px;
+  color: #605e5c;
+  margin-top: 28px;
+}
+
+.email-content__body p {
+  margin: 13px;
+  max-width: 380px;
 }
