@@ -1,0 +1,18 @@
+.Toolbar {
+    background-color: #F3F2F1;
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+.icon {
+    
+        font-size: xx-large;
+        padding: 0.5em;
+        margin-right: 0.5em;
+    
+}   
+
+.LastIcon button{
+    color: #C8C6C4;
+}
