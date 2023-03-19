@@ -1,0 +1,25 @@
+.sidebar {
+  width: 214px;
+  height: 575px;
+  background-color: #f3f2f1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navItem {
+  display: flex;
+}
+
+.navItem div {
+  display: flex;
+  align-items: center;
+}
+
+.navItem h4 {
+  font-size: 14px;
+  /*  padding-left: 1em; */
+  padding-bottom: 0.2em;
+}
+
+.inbox {
+  background-color: #c7e0f4;
+}

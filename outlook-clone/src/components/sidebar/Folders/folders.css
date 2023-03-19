@@ -1,0 +1,55 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 92vh;
+  color: #323130;
+}
+
+.folders {
+  flex: 1;
+}
+
+.folders a {
+  color: black;
+  text-decoration: none;
+}
+
+.item {
+  display: flex;
+  margin: 23px 0px 27px 16px;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.parent {
+  position: relative;
+}
+
+.items {
+  display: flex;
+  width: 196px;
+  height: 40px;
+  padding: 0px 0px 0px 18px;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+}
+
+.description {
+  padding-left: 6px;
+  font-size: 12px;
+}
+
+.items:hover {
+  color: #005a9e;
+  background-color: #c7e0f4;
+}
+
+.pending {
+  position: absolute;
+  left: 80%;
+  font-size: 12px;
+}
